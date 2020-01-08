@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sorting</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Teko&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap + CSS style sheet -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Bootstrap JS scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- Main Title -->
+    <section id="main-title" class="colored-section">
+      <h1>SORTING ALGORITHMS</h1>
+    </section>
+
+    <!-- Main Content -->
+    <section id="main-content" class="white-section">
+      <div class="options">
+        <table align="center">
+          <tr>
+            <th>Algorithm</th>
+            <th>Array Length</th>
+            <th>Sorting Rate</th>
+            <th></th>
+          </tr>
+
+          <tr>
+            <td>
+              <select class="dropdown" id="ddmenu">
+                <option value="selectionSort">Selection Sort</option>
+                <option value="bubbleSort">Bubble Sort</option>
+                <option value="insertionSort">Insertion Sort</option>
+                <option value="quickSort">Quicksort</option>
+              </select>
+              <!-- <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="ddmenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Dropdown button
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#" value="selectionSort">Selection Sort</a>
+                  <a class="dropdown-item" href="#" value="bubbleSort">Bubble Sort</a>
+                  <a class="dropdown-item" href="#" value="insertionSort">Insertion Sort</a>
+                  <a class="dropdown-item" href="#" value="quickSort">Quicksort</a>
+                </div>
+              </div> -->
+              <!-- <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="ddmenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                  Dropdown
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                  <li><a class="dropdown-item" href="#" value="selectionSort">Selection Sort</a></li>
+                  <li><a class="dropdown-item" href="#" value="bubbleSort">Bubble Sort</a></li>
+                  <li><a class="dropdown-item" href="#" value="insertionSort">Insertion Sort</a></li>
+                  <li><a class="dropdown-item" href="#" value="quickSort">Quicksort</a></li>
+                </ul>
+              </div> -->
+            </td>
+            <td>
+              <div  class="slider-section">
+                <div class="slider-font">
+                  <p id="length">value</p>
+                </div>
+                <div class="slidecontainer">
+                  <input type="range" min="1" max="200" value="100" class="slider" id="myRange">
+                </div>
+              </div>
+            </td>
+            <td>
+              <div  class="slider-section">
+                <div class="slider-font">
+                  <p id="rate">value</p>
+                </div>
+                <div class="slidecontainer">
+                  <input type="range" min="1" max="100" value="50" class="slider" id="sizeRange">
+                </div>
+              </div>
+            </td>
+            <td>
+              <div  class="toggle-sort">
+                <button type="button" class="btn btn-light" id="sort-button">SORT</button>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="animation-canvas" id="bars-canvas">
+        <!-- Content added through JS script -->
+      </div>
+    </section>
+
+    <!-- Main Footer -->
+    <section id="main-footer" class="colored-section">
+      <p>© Copyright 2020 Thomas Plantin</p>
+    </section>
+    <!-- JS script -->
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>

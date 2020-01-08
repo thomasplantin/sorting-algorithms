@@ -1,0 +1,66 @@
+body {
+  text-align: center;
+  background-color: #3a3535
+}
+
+h1 {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 900
+}
+
+#main-title {
+  padding: 2%
+}
+
+#main-content {
+  font-family: 'Teko', sans-serif;
+  padding: 1% 2%
+}
+
+#main-footer {
+  font-family: 'Source Code Pro', monospace;
+  padding: 2%
+}
+
+.container-fluid {
+  padding: 7% 15%
+}
+
+.colored-section {
+  background-color: #3a3535;
+  color: #f4eec7
+}
+
+.white-section {
+  background-color: #f4eec7;
+  color: #3a3535
+}
+
+.dropdown {
+  margin: auto 40px
+}
+
+.slider-section {
+  margin: auto 40px
+}
+
+.toggle-sort {
+  margin: auto 40px
+}
+
+.slider-font {
+  font-size: 20px
+}
+
+.slider::-webkit-slider-thumb {
+  cursor: pointer
+}
+
+.animation-canvas {
+  background-color: #cccccc;
+  height: 260px
+}
+
+#bars-canvas {
+  position: relative
+}
