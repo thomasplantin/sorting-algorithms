@@ -5,3 +5,5 @@ This simple project serves as a visualization tool for 4 sorting algorithms:
 - Bubble Sort
 - Insertion Sort
 - Quicksort
+
+Thanks to the visualizations, you can tell which sorting algorithms are the most efficient.
