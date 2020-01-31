@@ -7,3 +7,5 @@ This simple project serves as a visualization tool for 4 sorting algorithms:
 - Quicksort
 
 Thanks to the visualizations, you can tell which sorting algorithms are the most efficient.
+
+The animations can be found by clicking on the following link: https://hopeful-shaw-50edb7.netlify.com/
