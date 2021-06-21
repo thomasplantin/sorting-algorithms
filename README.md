@@ -8,4 +8,10 @@ This simple project serves as a visualization tool for 4 sorting algorithms:
 
 Thanks to the visualizations, you can tell which sorting algorithms are the most efficient.
 
-The animations can be found by clicking on the following <a href="https://sorting-algorithms-tplantin.netlify.app/" target="_blank">link</a>.
+# What I learned
+
+- Provide visual representations to complex sorting algorithms.
+- Render the visualizations at a rate specified by the user.
+- Get a deeper understanding of sorting algorithms.
+
+The animations can be found by clicking on this <a href="https://sorting-algorithms-tplantin.netlify.app/" target="_blank">link</a>.
